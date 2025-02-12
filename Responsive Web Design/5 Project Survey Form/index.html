@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Honda MotorBikes Survey Form</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="styles.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="principal">
+            <main >
+                <h1 id="title">HONDA MOTORCYCLES</h1>
+                <p id="description">Please fill out this form with required information</p>
+                
+                <hr>
+                <form id="survey-form" method="post" action="https">
+                    <div class="info_elements"><label id="name-label">Name</label><input type="text" id="name" name="name" placeholder="Enter Your Name" required/></div>
+                    <div class="info_elements"><label id="email-label">Email</label><input type="email" id="email" name="email" placeholder="Enter Your Email" required/></div>
+
+                    <div class="info_elements"><label id="number-label">How many motorcyclces did you have?</label><input type="number" id="number" min="0" max="50" placeholder="Select how many motorcycles you have"/></div>
+                    
+                    <div  class="info_elements">
+                        <p>Which honda motorcyclce is your favorite?</p>
+                        <select id="dropdown" required>
+                            <option disabled selected>Select your favorite</option>
+                            <option>CBF125 TWISTER</option>
+                            <option>CB160F</option>
+                            <option>CB300F TWISTER</option>
+                            <option>CB190R</option>
+                            <option>CB650R</option>
+                            <option>XR150LE</option>
+                            <option>XR190L</option>
+                            <option>NAVI110</option>
+                            <option>CRF250F</option>
+                            <option>NT1100D</option>
+                            <option>CBR600R</option>
+                            <option>CBR1000R</option>
+                            <option>CBR1000RR FIREBLADE</option>
+                        </select>
+                    </div>
+                    
+                    <div  class="info_elements">
+                        <p>Did you fall off your motorcyclce some time?</p>
+                        <label ><input class="inline" id="yes" name="answer"  type="radio" selected value="yes"/>Yes</label>
+                        <label ><input class="inline" id="no" name="answer" type="radio" value="no"/>No</label>
+                    </div>
+
+                    <div  class="info_elements">
+                        <p>Select the pieces that you have remove from a motorcyclce</p>
+                        <label><input class="inline" type="checkbox" value="motor"/>Motor</label>
+                        <label><input class="inline" type="checkbox" value="brakes"/>Brakes</label>
+                        <label><input class="inline" type="checkbox" value="wheels"/>Wheels</label>
+                        <label><input class="inline" type="checkbox" value="transmission"/>Transmision</label>
+                    </div>
+                    
+                    <div class="info_elements">
+                        <p>Tell us some anecdotes about your aventures</p><textarea></textarea>
+                    </div>
+
+                    <div  class="info_elements">
+                        <input id="submit" type="submit"/>
+                    </div>
+
+                </form>
+            </main>
+            <hr class="bottom_line">
+        </div>
+    </body>
+</html>

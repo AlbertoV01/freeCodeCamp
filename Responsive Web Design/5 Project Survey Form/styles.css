@@ -1,0 +1,98 @@
+main{
+    display: block;
+}
+
+body{
+    background-image: url(https://wallpapercave.com/wp/wc1565097.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Popins', sans-serif;
+    color: white;
+}
+
+.principal{
+width: 80%;
+background-color: rgba(57, 57, 57, 0.911);
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+max-width: 500px;
+margin-bottom: 0;
+
+}
+
+div, main{
+    display: block;
+}
+
+#title{
+    color: red;
+    text-align: center;
+}
+
+form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+label{
+    display: block;
+    
+}
+
+.info_elements{
+    margin: 1.5rem;
+    align-items: center;
+}
+
+
+#name-label, #email-label, #number-label{
+    margin: 0 0 0.2rem 0;
+}
+
+.inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+#description{
+    text-align: center;
+}
+
+input,select, textarea{
+    width: 100%;
+    min-height: 2em;
+}
+
+hr{
+    background-color: red;
+    height: 2px;
+    border-color: red;
+   
+}
+
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    border-color:rgb(255, 255, 255) ;
+    background-color: rgb(199, 91, 91);
+    min-width: 300px;
+    color: white;
+  }
+
+  #bottom_line{
+    margin-top: 0.5rem;
+  }
+
+  main{
+    margin-bottom: 0.5rem;
+  }
