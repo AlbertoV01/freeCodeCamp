@@ -1,0 +1,39 @@
+
+img{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+  }
+
+ h1{
+  text-align: center;
+  background: rgb(255, 255, 255);
+
+
+ }
+
+  main{
+    background: rgb(203, 202, 202);
+    border-radius: 15px;
+    margin: auto;
+    height: 150%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 90%;
+    max-width: 1200%;
+  }
+  
+  #img-caption{
+    text-align: center;
+  }
+  
+  h2{
+    text-align: center;
+    background: rgb(231, 231, 231);
+  }
+
+  #tribute-info{
+    text-align: justify;
+    margin: 20px 60px 20px 80px;
+  }
