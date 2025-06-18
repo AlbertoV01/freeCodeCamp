@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+
+    <body>
+
+        <nav id="navbar">
+            <header>Reglas del Beisbol</header>
+            <ul>
+                <a class="nav-link" href="#Numero_de_jugadores"><li>Numero de jugadores</li></a>
+                <a class="nav-link" href="#Dimensiones_de_la_cancha"><li>Dimensiones de la cancha</li></a>
+                <a class="nav-link" href="#El_juego"><li>El juego</li></a>
+                <a class="nav-link" href="#Anotar_puntos"><li>Anotar puntos</li></a>
+                <a class="nav-link" href="#Glosario_beisbolero"><li>Glosario beisbolero</li></a>
+                <a class="nav-link" href="#Reglas_importantes"><li>Reglas importantes</li></a>
+            </ul>
+        </nav>
+
+        <main id="main-doc">
+            <section class="main-section" id="Numero_de_jugadores">
+            <header>Numero de jugadores</header>
+
+            <p>
+                La primera regla que tenemos que saber es que un equipo lo conforma una línea de nueve jugadores <code>jugadores==9</code>, 
+                que cuando le toca estar a la ofensiva, cada uno de sus elementos tiene la oportunidad para batear 
+                consecutivamente, intentando recorrer las bases y anotar carrera.
+            </p>
+            <p>
+                Mientras que los jugadores del equipo contrario, a la defensiva, se ubican dentro del terreno de juego de la siguiente manera:
+                <ol>
+                    <li>El lanzador, quien se ubica en el centro del diamante para realizar los lanzamientos desde una zona ligeramente elevada, que se le llama montículo.</li>
+                    <li>El receptor o catcher, se ubica detrás del home para recibir los lanzamientos que el bateador falle y para otras jugadas que lo requieran.</li>
+                    <li>Un jugador en cada base, designado por el nombre de la base que custodia, primera, segunda y tercera base.</li>
+                    <li>Entre la segunda y tercera base, un jugador adicional llamado short stop o paracorto.</li>
+                    <li>Tres jugadores en la extensa zona llamada outfield: Son los outfielders o jardineros. Se designan como izquierdo, central y derecho, vistos desde la óptica del bateador, o del catcher.</li>
+                </ol>
+            </p>
+            </section>
+            <section class="main-section" id="Dimensiones_de_la_cancha">
+            <header>Dimensiones de la cancha</header>
+            <code></code>
+            <p>
+                El diamante es un cuadrado de 90 pies (27 m) de longitud, señalado con una línea trazada de cal. En la esquina del bateador hay una placa llamada home plate. En las otras esquinas se instalan almohadilladas llamadas bases, que se enumeran en sentido de las manecillas del reloj, desde la primera a la tercera.
+            </p>
+            <p>
+                La línea del home a la primera base, y la que va del home a la tercera base, se extiende 320 pies desde el home, dando al campo espacio adicional por detrás de las bases. Ese espacio más allá de las bases se llama outfield (también llamado jardines), mientras que a la zona del diamante se le llama infield.
+            </p>
+            <p>
+                El outfield y el infield constituyen la zona fair (zona válida de juego), mientras que el resto del campo se considera foul (zona no válida).
+            </p>
+            </section>
+            <section class="main-section" id="El_juego">
+            <header>El juego</header>
+            <p>
+                El juego se conforma por nueve entradas (turno de cada equipo para anotar) y el equipo que anote más carreras al final será el ganador <code>if(carrerasEquipoA > carrerasEquipoB) EquipoA </code>. Si ambos equipos están empatados al terminar las nueve entradas, se siguen jugando entradas adicionales, hasta que un equipo supere al otro.
+            </p>
+            <p>
+                Cabe señalar que las entradas constan de dos fases: alta y baja. En la primera, un equipo inicia a la ofensiva y el otro a la defensiva; y en la segunda se intercambian los papeles.
+            </p>
+            </section>
+            <section class="main-section" id="Anotar_puntos">
+            <header>Anotar puntos</header>
+            <p>
+                El pitcher lanza la pelota hacia el home y el bateador intentará golpearla con el bat, o bate. El golpe debe intentar que la pelota se dirija a alguna zona válida del campo, sin que los jugadores del otro equipo pueda atraparla.
+            <code></code>
+            </p>
+            <p>
+                Después de que el bateador golpea, en el home, la pelota de forma válida debe soltar el bat y correr para tocar las bases por el perímetro del diamante y tratar de regresar al home, así anotará su carrera.
+            </p>
+            <p> 
+                A continuación algunas reglas básicas del béisbol:
+                <ol>
+                    <li>El equipo local comienza jugando a la defensiva.</li>
+                    <li>Si un bateador falla al intentar golpear la pelota, ese fallo se contabiliza con el nombre de strike. Si acumula tres strikes en su turno, queda fuera (out).</li>
+                    <li>Cuando tres jugadores a la ofensiva han sido puestos out, finaliza el turno ofensivo del equipo.</li>
+                    <li>Si el bateador golpea a la pelota y ésta cae en la zona de foul, la jugada no es válida. Las dos primeras veces que sucede esto, se cuenta como strike.</li>
+                    <li>Un corredor ofensivo queda out si no está pisando una base y un jugador defensivo lo toca con la pelota. O si tiene que desplazarse hacia una base, y un jugador defensivo tiene la pelota y pisa esa base.</li>
+                    <li>Si el bateador golpea la pelota y un jugador defensivo la atrapa antes de tocar el suelo, quedará out.</li>
+                    <li>Si el bateador golpea la pelota y ésta sale del campo por encima de la cerca que está al final del mismo, en la zona fair, se decreta home run o cuadrangular.</li>
+                </ol>
+            </p>
+            </section>
+            <section class="main-section" id="Glosario_beisbolero">
+            <header>Glosario beisbolero</header>
+            <code></code>
+            <p>
+                <ul>
+                    <li>PUTOUT: Si un pelotero logra poner out a un bateador fildeando él mismo la pelota o tocando la base, ha logrado un putout.</li>
+                    <li>Triple corona: Los lanzadores, terminar como líderes en efectividad, ponches y victorias; mientras que para los bateadores es ser los mejores en carreras impulsadas, cuadrangulares y promedio.</li>
+                    <li>Tubey:  Este término refiere que un bateador conectó un doble; es decir, bateó la pelota y consiguió pasar por la primera base y llegar safe a la segunda.</li>
+                    <li>AVG: El promedio de bateo se obtiene de dividir el número de hits logrados sobre el número de turnos tomados.</li>
+                    <li>Batería: Se trata de un término para referirse a la combinación de lanzador y receptor, que son quienes coordinan el pitcheo de un equipo.</li>
+                    <li>Shutout: Hace referencia a un juego en el que un pitcher lanza juego completo sin recibir carrera. Aunque también se usa para describir un juego en el que el equipo ganador no recibió anotaciones.</li>
+                    <li>Hit and run: Colocar a uno o más corredores en posición anotadora o incluso, conseguir que registren carrera. La jugada consiste en que el bateador en turno debe buscar conectar la bola de hit mientras este o los corredores en base corren hacia la meta.</li>
+                    <li>Tag up: Se aplica cuando, con menos de dos outs y hombre u hombres en base, y producto de un batazo elevado fuera del cuadro, los corredores pueden avanzar base o anotar tras correr justo cuando el jugador defensivo captura de out la bola.</li>
+                </ul>
+            </p>
+            </section>
+            <section class="main-section" id="Reglas_importantes">
+            <header>Reglas importantes</header>
+            <code></code>
+            <p>
+La zona de strike: el campo de batalla del lanzador y el bateador. Para comprender la intensidad y la precisión requeridas en el béisbol, primero se debe comprender el concepto de zona de strike. La zona de strike es un área imaginaria sobre el plato de home, que se extiende desde las rodillas del bateador hasta el punto medio entre los hombros y la cintura. Un lanzamiento que pasa a través de esta zona y no es golpeado por el bateador se llama strike. Sin embargo, si el lanzamiento está fuera de esta área y el bateador se abstiene de hacer el swing, se considera bola. Comprender la zona de strike es vital tanto para los lanzadores como para los bateadores, ya que determina el resultado de cada lanzamiento.
+            </p>
+            <p>
+Tres strikes, estás fuera: el poder del lanzador Una de las reglas más fundamentales en el béisbol es la regla de “tres strikes, estás fuera”. Cuando un bateador acumula tres strikes, ya sea al hacer un swing y fallar o fallar al hacer un swing en un lanzamiento dentro de la zona de strike, se declara eliminado y debe regresar al banquillo. Esta regla subraya la importancia de la precisión y la estrategia para el lanzador, ya que se esfuerzan por engañar y burlar al bateador con cada lanzamiento.
+            </p>
+            <p>
+Cuatro bolas, toma tu base: el arte de dibujar caminatas. Por otro lado, los bateadores tienen la oportunidad de ganar una base sin balancear el bate a través de la regla conocida como “cuatro bolas, toma tu base”. Cuando un lanzador hace cuatro lanzamientos fuera de la zona de strike, el bateador recibe un boleto y se le permite avanzar a la primera base. Obtener bases por bolas requiere paciencia y buen ojo, ya que los bateadores deben diferenciar entre los lanzamientos que están dentro de la zona de strike y los que no lo están.
+            </p>
+            <p>
+A salvo o fuera (Safe or Out): el dilema del corrido de bases. El corrido de bases es un aspecto crucial del béisbol que exige velocidad y una toma de decisiones inteligente. Cuando un bateador golpea la pelota con éxito y llega a la base, se convierte en un corredor de bases. Sin embargo, deben tener cuidado con los outs potenciales. Una forma en que un corredor de base puede ser eliminado es cuando un fildeador lo toca con la pelota antes de que llegue a una base. Los corredores de bases también deben cumplir con reglas específicas cuando avanzan bases, como marcar después de atrapar un elevado. Comprender estas reglas para correr las bases te permitirá apreciar el ballet estratégico que se desarrolla en el diamante.
+            </p>
+            <p>
+La regla del Infield Fly: Protección de la defensa. En ciertas situaciones, entra en juego una regla conocida como “regla del Infield Fly” para evitar que la defensa aproveche una laguna estratégica. Esta regla se aplica cuando hay menos de dos outs y hay corredores en primera y segunda o las bases están llenas. Si un bateador golpea una ventana emergente que puede ser atrapada fácilmente por un jugador del cuadro, el árbitro puede invocar la regla del vuelo del cuadro y declarar out al bateador, independientemente de si la pelota es atrapada o dropada. Esta regla tiene como objetivo evitar que la defensa deje caer la pelota intencionalmente para iniciar un juego doble o triple, asegurando la equidad en el juego.
+            </p>
+            </section>
+
+            <p><strong><i>Todo la informacion que se uso de referencia se puede encontrar</strong> <a href="https://www.clarosports.com/beisbol/las-reglas-basicas-del-beisbol/">aqui</i></a></p>
+        </main>
+
+    </body>
+</html>
